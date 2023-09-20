@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Category Selection</title>
+    <style>
+        .other-input {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Select a Category</h2>
+    <form id="categoryForm">
+        <label for="category">Category:</label>
+        <select id="category" name="category" onchange="toggleOtherInput()">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="other">Other...</option>
+        </select>
+
+        <div id="otherInput" class="other-input">
+            <label for="otherCategory">Specify Other:</label>
+            <input type="text" id="otherCategory" name="otherCategory">
+        </div>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+   <script src="/Assignmnet4/Assignment4.js"></script>
+</body>
+</html>
