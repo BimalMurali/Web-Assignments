@@ -1,0 +1,93 @@
+.img {
+    border-radius: 50%; /* Make the image round */
+}
+.nav{
+    align-items: center;
+}
+h1{
+    margin-left: 15px;
+}
+/* Style the form container */
+.container {
+    position: relative;
+    min-height: 100vh; /* Ensure the form stays at the bottom of the page */
+}
+
+/* Style the form inputs and labels */
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    flex: 1;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Style the submit button */
+.btn-primary {
+    float: right;
+    clear: both; /* Clear the float to prevent layout issues */
+}
+
+/* Style the blog posts container */
+#blogPosts {
+    margin-top: 20px;
+}
+
+/* Style the summernote textarea */
+.summernote {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.summernote:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+ .con div{
+    display: inline;
+ }
+ label {
+    /* display: block; */
+    font-weight: bold;
+}
+  
+  .box-80 {
+    flex: 80%;
+  }
+  
+  .box-20 {
+    flex: 20%;
+  }
+ .colored-hr {
+    border: none; 
+    height: 2px; 
+    background-color: #3498db; 
+  } 
+
+  .customContainer{
+    background-color:#f6fafd;
+    max-width:600px;
+    margin:20px auto;
+    padding:45px;
+    border-radius:25px;
+    box-shadow:0 0 10px;
+}
+  
